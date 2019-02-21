@@ -70,3 +70,7 @@ button {
 .formTitle {
     color: #1ECEFD;
 }
+
+.update {
+    outline: none;
+}

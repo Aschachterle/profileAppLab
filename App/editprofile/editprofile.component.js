@@ -8,7 +8,7 @@ const editprofile = {
         <input ng-model="$ctrl.userProfile.contactInfo">
         <p class="formTitle">Bio</p>
         <textarea name="" id="" cols="30" rows="10" ng-model="$ctrl.userProfile.bio"></textarea>
-        <button>Update</button>
+        <button class="update">Update</button>
     </form>
     `,
     controller: [ "ProfileService", function(ProfileService) {
